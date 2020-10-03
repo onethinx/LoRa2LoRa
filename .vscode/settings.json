@@ -1,0 +1,12 @@
+{
+  "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+  "C_Cpp.loggingLevel":"Debug",
+  "cmake.preferredGenerators": [
+    "Unix Makefiles",
+    "MinGW Makefiles"
+  ],
+  "files.associations": {
+    "project.h": "c",
+    "lis3dh.h": "c"
+  },
+}
