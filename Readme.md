@@ -19,3 +19,12 @@
    ![Build](../assets/Build.png?raw=true)
    - Debug<br/>
    ![Debug](../assets/Debug.png?raw=true)
+   
+3. Onethinx Core API
+   - This command should be used to transmit data over LoRa<br>
+   `LoRa_TX(&LoRaParams, &RadioStatus, (uint8_t *) &LoRaTXbuffer, sizeof(LoRaTXbuffer), 3000);`
+   - This command should be used to receive data over LoRa<br>
+   `LoRa_RX(&LoRaParams, &RadioStatus, (uint8_t *) &LoRaRXbuffer, sizeof(LoRaRXbuffer), 30000);`
+   
+   The LoRaParams are holding the LoRa parameters (frequency, spreading factor etc).
+  
